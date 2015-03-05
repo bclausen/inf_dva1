@@ -206,7 +206,7 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-            background: #58ACFA;
+            background: teal;
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
@@ -217,7 +217,7 @@ a:hover  {  color: #000
             font-weight: 100;
             font-size:40px;
             text-rendering: optimizelegibility;
-            color: teal;
+            color: white;
       }
 
 #Kasten9 {  position:absolute;
