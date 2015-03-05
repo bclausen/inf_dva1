@@ -67,7 +67,9 @@ a:hover  {  color: #000
             color: #fff;
       }
 
-#Kasten1 {  position:absolute;
+#Kasten1 {  background-image: url(hintergrund.jpg);
+            background-position: center center;
+            position:absolute;
             top:150px;
             left:0px; 
             height: 200px;
@@ -84,7 +86,7 @@ a:hover  {  color: #000
             font-size:30px;
             text-rendering: optimizelegibility;
             color: orange;
-            background-image: url(hintergrund.jpg);
+
       }
 
 #Kasten2 {  background-image: url(puma.jpg);
