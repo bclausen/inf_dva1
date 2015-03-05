@@ -50,12 +50,14 @@ a:hover  {  color: #000
 
         }
 
-#Kasten {   position:absolute;
+#Kasten {   background-image: url(arbeitend_0093.gif);
+            background-size: cover;
+            position:absolute;
             top:150px;
             left:0px; 
             height: 400px;
             z-index: 1;
-            background: magenta;
+            background:;
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
