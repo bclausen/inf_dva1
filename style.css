@@ -91,7 +91,7 @@ a:hover  {  color: #000
 
 #Kasten2 {  background-image: url(traktor.gif);
             background-position: center center; 
-            background-size: cover
+            position: absolute;
             top:350px;
             left:0px; 
             height: 200px;
