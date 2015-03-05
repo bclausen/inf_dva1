@@ -50,7 +50,10 @@ a:hover  {  color: #000
 
         }
 
-#Kasten {   background-image: url(fun_0034.gif);
+<<<<<<< Updated upstream
+#Kasten {   background-image: url(random.jpg);
+=======
+
             background-size: cover;
             position:absolute;
             top:150px;
