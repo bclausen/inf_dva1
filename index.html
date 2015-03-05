@@ -247,6 +247,14 @@
             document.getElementById ('Kasten12').style.left = Kasten_left;
             document.getElementById ('Kasten12').style.top = 150+12*KastenKleinhoehe+12*10;
           };
+
+                        function mouseOverKasten1 () {
+            document.getElementById ('Kasten1').style.background = "pink";
+          };
+
+              function mouseOutKasten1 () {
+            document.getElementById ('Kasten1').style.background = "green";
+          };
           
         }
         
@@ -260,7 +268,7 @@
       <p>Lehrer</p>
       <p>GitHub: bclausen</p>
     </div>
-    <div id = "Kasten1">
+    <div id = "Kasten1" onmouseover="mouseOverKasten()" onmouseout="mouseOutKasten()">
       <p></p>
       Hallo Kollegen/in
     </div>
