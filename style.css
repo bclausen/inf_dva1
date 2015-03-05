@@ -91,7 +91,7 @@ a:hover  {  color: #000
 
 #Kasten2 {  background-image: url(traktor.gif);
             background-position: center center; 
-            position: absolute;
+            background-size: cover
             top:350px;
             left:0px; 
             height: 200px;
@@ -106,7 +106,7 @@ a:hover  {  color: #000
             font-size:40px;
             font-family: sans-serif;
             text-rendering: optimizelegibility;
-            color: yellow;
+            color: blue;
       }
 
 #Kasten3 {  position:absolute;
