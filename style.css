@@ -52,6 +52,7 @@ a:hover  {  color: #000
 
 #Kasten {   background-image: url(arbeitend_0093.gif);
             background-size: cover;
+            background-size: 10px;
             position:absolute;
             top:150px;
             left:0px; 
