@@ -129,21 +129,21 @@ a:hover  {  color: #000
             color: #fff;
       }
 
-#Kasten4 {  background-image: url(fliegendeseinhorn.gif);
+#Kasten4 {  /*background-image: url(fliegendeseinhorn.gif);*/
             position:absolute;
             top:350px;
             left:0px; 
             height: 200px;
             z-index: 1;
-            /*background: #993366;*/
+            background: #993366;
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
 
             letter-spacing: -0.015em;
-            line-height: 37px;
+            line-height: 32px;
             /*line-height: 2.0625;*/
-            font-weight: 100;
+            font-weight: 80;
             font-size:20px;
             text-rendering: optimizelegibility;
             color: #fff;
