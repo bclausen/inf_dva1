@@ -101,6 +101,7 @@ a:hover  {  color: #000
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:40px;
+            font-family: comic
             text-rendering: optimizelegibility;
             color: #fff;
       }
