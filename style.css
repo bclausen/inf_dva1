@@ -140,9 +140,10 @@ a:hover  {  color: #000
             line-height: 160px;
             /*line-height: 2.0625;*/
             font-weight: 10;
-            font-size:40px;
+            font-size:15pt;
             text-rendering: optimizelegibility;
             color: black;
+
       }
 
 <<<<<<< Updated upstream
