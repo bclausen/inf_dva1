@@ -84,6 +84,7 @@ a:hover  {  color: #000
             font-size:30px;
             text-rendering: optimizelegibility;
             color: orange;
+            background-image: url(hintergrund.jpg);
       }
 
 #Kasten2 {  background-image: url(puma.jpg);
