@@ -227,7 +227,8 @@ a:hover  {  color: #000
             color: pink;
       }
 
-#Kasten9 {  position:absolute;
+#Kasten9 { background-image: url(Hannibanani);
+             position:absolute;
             top:350px;
             left:0px; 
             height: 200px;
