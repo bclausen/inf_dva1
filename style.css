@@ -127,7 +127,8 @@ a:hover  {  color: #000
             color: #fff;
       }
 
-#Kasten4 {  position:absolute;
+#Kasten4 {  background-image: url(fliegendendeseinhorn.gif);
+            position:absolute;
             top:350px;
             left:0px; 
             height: 200px;
