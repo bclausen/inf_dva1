@@ -88,12 +88,11 @@ a:hover  {  color: #000
 
 #Kasten2 {  background-image: url(puma.jpg);
             background-position: center center; 
-            position:absolute;
+            position: absolute;
             top:350px;
             left:0px; 
             height: 200px;
             z-index: 1;
-            background: magenta;
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
