@@ -74,7 +74,7 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-            background: green;
+            background:
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
