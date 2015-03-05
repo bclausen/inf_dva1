@@ -232,6 +232,8 @@ a:hover  {  color: #000
       }
 
 #Kasten9 { background-image: url(Hannibanani.jpg);
+            background-position: center center;
+            background-size: cover;
              position:absolute;
             top:350px;
             left:0px; 
