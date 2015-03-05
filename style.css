@@ -99,7 +99,6 @@ a:hover  {  color: #000
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
-
             letter-spacing: -0.015em;
             line-height: 37px;
             /*line-height: 2.0625;*/
@@ -107,7 +106,7 @@ a:hover  {  color: #000
             font-size:40px;
             font-family: sans-serif;
             text-rendering: optimizelegibility;
-            color: #fff;
+            color: yellow;
       }
 
 #Kasten3 {  position:absolute;
