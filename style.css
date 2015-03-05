@@ -270,6 +270,7 @@ a:hover  {  color: #000
       }
 
 #Kasten11 {  background-image: url(deutschland_0018.gif);
+            background-size: cover;
             position:absolute;
             top:550px;
             left:0px; 
