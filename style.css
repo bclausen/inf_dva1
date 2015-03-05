@@ -36,7 +36,7 @@ a     {     font-family: arial;
 a:hover  {  color: #000
       }
 
-#bgImage {  background-image: url(hintergrund.jpg);
+#bgImage {  background-image: url();
             background-position: center center; /*vertkal und horizontal zentriert */
             background-size: cover; /*Hintergrundbild wird so skaliert, dass immer gesamter Bereich gefüllt ist */
             overflow: hidden; /* Inhalt wird abgeschnitten, wenn Grenzen überschritten werden*/
@@ -50,9 +50,8 @@ a:hover  {  color: #000
 
         }
 
-#Kasten {   background-image: url(arbeitsfahrzeug_0078.gif);
+#Kasten {   background-image: url(arbeitend_0093.gif);
             background-size: cover;
-            background-size: 700px;
             position:absolute;
             top:150px;
             left:0px; 
@@ -70,19 +69,15 @@ a:hover  {  color: #000
             color: #fff;
       }
 
-<<<<<<< Updated upstream
 #Kasten1 {  background-image: url(arbeitend_0017.gif);
             background-size: cover;
-=======
-#Kasten1 {  background-image: url(730497b Kopie.jpg);
->>>>>>> Stashed changes
             background-position: center center;
             position:absolute;
             top:150px;
             left:0px; 
             height: 200px;
             z-index: 1;
-            background: green;
+            background:
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
@@ -108,7 +103,6 @@ a:hover  {  color: #000
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
-
             letter-spacing: -0.015em;
             line-height: 37px;
             /*line-height: 2.0625;*/
@@ -116,11 +110,7 @@ a:hover  {  color: #000
             font-size:40px;
             font-family: sans-serif;
             text-rendering: optimizelegibility;
-<<<<<<< Updated upstream
             color: blue;
-=======
-            color: #fff;
->>>>>>> Stashed changes
       }
 
 #Kasten3 {  position:absolute;
@@ -139,32 +129,27 @@ a:hover  {  color: #000
             letter-spacing: -0.015em;
             line-height: 160px;
             /*line-height: 2.0625;*/
-            font-weight: 10;
-            font-size:15pt;
+            font-weight: 100;
+            font-size:40px;
             text-rendering: optimizelegibility;
             color: black;
-
       }
 
-<<<<<<< Updated upstream
 #Kasten4 {  background-image: url(katzenbild.jpg);
-=======
-#Kasten4 {  background-image: url(fliegendeseinhorn.gif);
->>>>>>> Stashed changes
             position:absolute;
             top:350px;
             left:0px; 
             height: 200px;
             z-index: 1;
-            /*background: #993366;*/
+            background: #993366;
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
 
             letter-spacing: -0.015em;
-            line-height: 37px;
+            line-height: 32px;
             /*line-height: 2.0625;*/
-            font-weight: 100;
+            font-weight: 80;
             font-size:20px;
             text-rendering: optimizelegibility;
             color: #fff;
@@ -175,8 +160,7 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-            background-image: url('images.jpg');
-            background-size: cover;
+            background-color: lightgreen;
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
@@ -185,7 +169,7 @@ a:hover  {  color: #000
             line-height: 37px;
             /*line-height: 2.0625;*/
             font-weight: 100;
-            font-size:20px;
+            font-size:40px;
             text-rendering: optimizelegibility;
             color: #fff;
       }
@@ -195,7 +179,7 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-            background-image: url('jesus-hipster.jpg');
+            background-image: url('200.gif');
             background-size: cover;
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
@@ -235,7 +219,8 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-            background:url('schweinchen.jpg');
+            background:url('schweinchen2.jpg');
+            background-size: cover;
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
@@ -257,7 +242,7 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-            background: rgba(0,0,0,0.6);
+            /*background: rgba(0,0,0,0.6);*/
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
@@ -266,9 +251,9 @@ a:hover  {  color: #000
             line-height: 37px;
             /*line-height: 2.0625;*/
             font-weight: 100;
-            font-size:40px;
+            font-size:20px;
             text-rendering: optimizelegibility;
-            color: blue;
+            color: red;
       }
 
 #Kasten10 {  position:absolute;
@@ -276,7 +261,7 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-            background: #FF9900;
+            background: #58ACFA;
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
@@ -329,3 +314,17 @@ a:hover  {  color: #000
             text-rendering: optimizelegibility;
             color: #fff;
       }
+
+#bgImage {  background-image: url(bg.jpg);
+            background-position: center center; /*vertkal und horizontal zentriert */
+            background-size: cover; /*Hintergrundbild wird so skaliert, dass immer gesamter Bereich gefüllt ist */
+            overflow: hidden; /* Inhalt wird abgeschnitten, wenn Grenzen überschritten werden*/
+            position: fixed; /* absolute Positionierung, gemessen am Browserfenster. Bleibt beim Scrollen stehen.  */
+            width: 100%;
+            height: 100%;
+            z-index: 1; /* Reihenfolge von überlappenden Elementen bestimmen */
+            top: 0px;
+            left: 0px;
+            background-attachment: scroll;
+
+        }      
