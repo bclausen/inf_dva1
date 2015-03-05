@@ -36,7 +36,7 @@ a     {     font-family: arial;
 a:hover  {  color: #000
       }
 
-#bgImage {  background-image: url(hintergrund.jpg);
+#bgImage {  background-image: url();
             background-position: center center; /*vertkal und horizontal zentriert */
             background-size: cover; /*Hintergrundbild wird so skaliert, dass immer gesamter Bereich gefüllt ist */
             overflow: hidden; /* Inhalt wird abgeschnitten, wenn Grenzen überschritten werden*/
