@@ -50,8 +50,8 @@ a:hover  {  color: #000
 
         }
 
-<<<<<<< Updated upstream
-#Kasten {   background-image: url(random.png);
+
+#Kasten {   background-image: url(bcl.png);
             background-size: cover;
             position:absolute;
             top:150px;
@@ -66,8 +66,9 @@ a:hover  {  color: #000
             line-height: 1.2625;
             font-weight: 200;
             font-size:72px;
+            font-color:white;
             text-rendering: optimizelegibility;
-            color: #fff;
+            color: white;
       }
 
 #Kasten1 {  background-image: url(fliegendeseinhorn.gif);
