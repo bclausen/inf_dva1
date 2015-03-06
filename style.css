@@ -51,7 +51,7 @@ a:hover  {  color: #000
         }
 
 <<<<<<< Updated upstream
-#Kasten {   background-image: url(random.jpg);
+#Kasten {   background-image: url(random.png);
             background-size: cover;
             position:absolute;
             top:150px;
@@ -70,7 +70,7 @@ a:hover  {  color: #000
             color: #fff;
       }
 
-#Kasten1 {  background-image: url(random.jpg));
+#Kasten1 {  background-image: url(fliegendeseinhorn.gif);
             background-size: cover;
             background-position: center center;
             position:absolute;
